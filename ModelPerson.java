@@ -11,6 +11,10 @@ public class ModelPerson {
         this.lastName = lastName;
     }
 
+    public ModelPerson() {
+
+    }
+
     public int getId() {
         return id;
     }

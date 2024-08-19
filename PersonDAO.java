@@ -8,6 +8,7 @@ public class PersonDAO implements InterfaceDao<ModelPerson> {
     if(person.getId() != 0) {
         person.setId(nextId++);
         this.data.add(person);
+        System.out.println("Se creo: "+ person.getfirstName()+ " " +person.getlastName());
     }
     }
 
