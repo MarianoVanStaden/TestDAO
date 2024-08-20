@@ -1,0 +1,59 @@
+# Proyecto de Gestión de Personas
+
+Este proyecto es una implementación básica de un sistema de gestión de personas utilizando Java. El código incluye una clase modelo (`ModelPerson`), una clase DAO (`PersonDAO`), y una clase principal (`Main`) para demostrar el uso del DAO y la gestión de datos en memoria.
+
+## Contenido
+
+- [Descripción](#descripción)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Contacto](#contacto)
+
+## Descripción
+
+El propósito de este proyecto es mostrar cómo manejar la persistencia de datos en memoria mediante el uso de un objeto de acceso a datos (DAO) en Java. El proyecto permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre objetos `ModelPerson` que representan a personas.
+
+## Requisitos
+
+- **Java SE Development Kit (JDK)**: 1.8 o superior.
+- **IDE recomendado**: Visual Studio Code, IntelliJ IDEA, Eclipse.
+
+## Instalación
+
+1. Clona este repositorio o descarga el archivo `.zip` y extráelo en tu máquina local.
+2. Abre el proyecto en tu IDE preferido.
+3. Asegúrate de tener configurado el JDK correctamente.
+
+## Uso
+
+1. Navega al archivo `Main.java` y ejecútalo. Este archivo contiene ejemplos de cómo interactuar con las clases `PersonDAO` y `ModelPerson`.
+2. El `Main` realiza las siguientes operaciones:
+   - Crear y agregar personas a la base de datos en memoria.
+   - Leer todas las personas almacenadas.
+   - Leer una persona específica por su ID.
+   - Actualizar la información de una persona.
+   - Eliminar una persona por su ID.
+   
+3. Observa la salida de la consola para ver los resultados de las operaciones.
+
+## Estructura del Proyecto
+
+El proyecto está compuesto por los siguientes archivos:
+
+- **`ModelPerson.java`**: Clase que representa a una persona con atributos como `id`, `dni`, `firstName`, y `lastName`.
+- **`PersonDAO.java`**: Objeto de acceso a datos que maneja la creación, lectura, actualización y eliminación (CRUD) de `ModelPerson` en una lista en memoria.
+- **`Main.java`**: Clase principal que contiene ejemplos de uso del DAO.
+
+## Contacto
+
+**Autor:** Ivan Mariano
+
+Para cualquier consulta o sugerencia, puedes contactarme a través de:
+
+- **Email:** [marianovanstaden@gmail.com]
+- **GitHub:** [MarianoVanStaden](https://github.com/MarianoVanStaden)
+
+
+
