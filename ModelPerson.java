@@ -4,6 +4,11 @@ public class ModelPerson {
     private String firstName;
     private String lastName;
 
+    public ModelPerson(String dni, String firstName, String lastName) {
+        this.dni = dni;
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
     public ModelPerson(int id, String dni, String firstName, String lastName) {
         this.id = id;
         this.dni = dni;
