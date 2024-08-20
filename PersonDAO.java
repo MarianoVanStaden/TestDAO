@@ -7,10 +7,9 @@ public class PersonDAO implements InterfaceDao<ModelPerson> {
     
     @Override
     public void create(ModelPerson person) {
-    if(person.getId() != 0) {
+    if(person.getId() == 0) {
         person.setId(nextId++);
         this.data.add(person);
-        System.out.println("Se creo: "+ person.getfirstName()+ " " +person.getlastName());
     }
     }
 
